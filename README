@@ -1,0 +1,25 @@
+#### CODE CHALLENGE (challenge-2)
+
+### Date--2024/03/23
+
+### By --Samuel Githaiga
+
+## Description 
+It is a webpage that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+
+### Installition Requirements
+Git
+
+## Installition instractions
+clone the link from your git  account and push it after creating a new repository.
+
+
+## Technologies used 
+Javascript
+GitHub
+## How to go about it
+>Create a function called calculateDemeritPoints with speed as the parameter.
+>Then create a constat speed limit = 70 and another kmperDiameterpoint = 5 and another called  const pointsPerKmOverLimit = 1 .
+>Use if to show that speed is less than the speed limit then console.log ok to show the speed is okay then return 0.
+>Create const kmOverLimit = speed - speedLimit and another const demeritPoints = Math.floor(kmOverLimit / kmPerDemeritPoint) then use the if and the else syntax.
+>
